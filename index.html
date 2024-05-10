@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/main.js" defer></script>
+    <link rel="" href="favicon.ico" type="image/x-icon">
+    <title>My First Website</title>
+</head>
+
+<body class="min-h-screen bg-slate-50 bg-gradient-to-tr:bg-black dark:text-white"> 
+    <header class="sticky top-0 z-10 bg-teal-700 text-white">
+        h1.
+        <section class="mx-auto flex max-w-4xl items-center justify-between p-4">
+            <div>
+            <button id="hamburger-button" class="relative h-8 w-8 cursor-pointer text-3xl md:hidden">
+                <!-- &#9776; -->
+                <div
+                  class="absolute top-4 -mt-0.5 h-1 w-8 rounded bg-white transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']">
+                </div>
+           </button>
+    <section id="mobile-menu"
+    class="top-68 justify-center absolute hidden w-full origin-top animate-open-menu flex-col bg-black text-5xl">
+        <button id="hamburger-button" class="relative h-8 w-8 cursor-pointer text-3xl md:hidden">
+            <!-- &#9776; --> 
+               <div
+            class="absolute top-4 -mt-0.5 h-1 w-8 rounded bg-white transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']">
+          </div>
+          <nav class="hidden space-x-8 text-xl md:block" aria-label="main">
+            <a href="#home.html" class="hover:opacity-90">Home</a>
+            <a href="#about_me" class="hover:opacity-90">About Me</a>
+            <a href="#contact.html" class="hover:opacity-90">Contact Me</a>
+          </nav>
+              </div>
+        </button>
+    </section>
+    <section id="mobile-menu"
+      class="top-68 justify-center absolute hidden w-full origin-top animate-open-menu flex-col bg-black text-5xl">
+      <!-- <button class="text-8xl self-end px-6">
+                &times;
+            </button> -->
+      <nav class="flex min-h-screen flex-col items-center py-8" aria-label="mobile">
+        <a href="#home" class="w-full py-6 text-center hover:opacity-90">Home</a>
+        <a href="#about_me" class="w-full py-6 text-center hover:opacity-90">About Me</a>
+        <a href="#contact.html" class="w-full py-6 text-center hover:opacity-90">Contact Me</a>
+        <a href="#footer" class="w-full py-6 text-center hover:opacity-90">Legal</a>
+      </nav>
+    </section>
+  </header>
+
+  <section>
+        <section class="mx-auto flex max-w-4xl items-center justify-between p-4">
+        <div class="space-y-4">
+            <h1 class="text-4xl font-medium">
+               <span class="nowrap">Welcome</span>
+            </h1>
+            <p >
+            <span class="text-2xl font-light">My name is Rahel Abera</span>
+        </p>
+        </div>
+            <div
+            class="absolute top-4 -mt-0.5 h-1 w-8 rounded bg-white transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']">
+            </div>
+            <img class="w-1/2" src="img/rahi.JPG" alt="Rahel Abera">
+        </section>
+  </section>
+
+    <main class="projects-section">
+        <p class="text-2xl font-bold">
+            My Projects
+        </p>
+        <ul>
+            <li class="single-project">
+                <p class="font-semibold">
+                    HTML Project
+                </p>
+                <p class="ml-4 text-sm">
+                    I did the little taco shop mini project using HTML.
+                    HTML(HyperText Markup Language) is the foundation of web development. It’s the code used to structure web pages 
+                    and define their content.
+                    HTML is all about structuring content using elements, tags, and attributes. 
+                    It’s the backbone of every web page.
+                </p>
+                <a class="ml-4 uppercase underline text-xs" href="https://github.com/rahi-7/LTS/blob/main/index.html">HTML Project</a>
+            </li>
+            <li class="single-project">
+                <p class="font-semibold">
+                    CSS3 Project
+                </p>
+                <p class="ml-4 text-sm">
+                    I did the little taco shop mini project using HTML and CSS.
+                    CSS(Cascading Style Sheets) is the first technology I learnt after HTML.
+                    CSS is used for styling and layout in web development.
+                    CSS rules consist of selectors and declarations.
+                </p>
+                <p>
+                <a class="ml-4 uppercase underline text-xs" href="https://github.com/rahi-7/The-Little-Taco-Shop/tree/main/js">CSS3 Project</a>
+                </p>
+            </li>
+            <li class="single-project">
+                <p class="font-semibold">
+                    Acme rocket
+                </p>
+                <p class="ml-4 text-sm">
+                    I did Acme rocket mini project using tailwindcss.
+                    TailwindCSS is a powerful utility-first CSS framework that simplifies styling and design.
+                    Tailwind CSS empowers to create beautiful designs directly within HTML. 
+                    Explore its documentation and experiment with utility classes.
+                </p>
+                <a class="ml-4 uppercase underline text-xs" href="https://github.com/rahi-7/tailwind">Acme rocket</a>
+            </li>
+        </ul>
+    </main>
+    
+    <section class="about-me-section">
+        <p class="text-2xl font-bold">
+            About Me
+        </p>
+        <p class="ml-4 text-sm">
+            I am a freshman natural science student at Hawassa University. I have actively participated in various volunteer activities, such as collecting money and providing assistance to the underprivileged during Christian holidays. 
+
+            My passion for ICT (Information and Communication Technology) began during my elementary and secondary school years, where I excelled in the subject. I even had the opportunity to attend a three-week bootcamp at Kibur College, where I gained a solid foundation in basic website development. Additionally, I furthered my programming skills through online courses at Addis CoderX. 
+            
+            My experiences and learning journey have fueled my interest in programming, and I aspire to become a full-stack web developer and problem solver for my country. That's why I have decided to pursue DirectED, as it aligns with my goals and ambitions. 
+            
+            Apart from my enthusiasm for programming, I also have a keen interest in reading books. They provide me with knowledge, inspiration, and a broader perspective on various subjects.
+        </p>
+    </section>
+
+    <section class="contact-me-section space-y-4">
+        <p class="text-2xl font-bold">
+            Contact me
+        </p>
+
+        <form action="https:httpbin.org/get"
+        method="get" class="contact__form">
+        <fieldset class="contact__fieldset">
+            <legend class="offscreen">Send Me Message</legend>
+            <p class="contact__p">
+                <label class="contact__label" for="name">Name:</label>
+                <input class="contact__input" type="text" name="name"
+                id="name" placeholder="your name"
+                required>
+            </p>
+            <p class="contact__p">
+                <label class="contact__label" for="email">Email:</label>
+                <input class="contact__input" type="email" name="email"
+                id="email" placeholder="your email"
+                required>
+           
+            </p>
+            <p>
+                <label for="message">Your Message:</label>
+                <br>
+                <textarea class="contact__textarea" name="message" id="message"
+                cols="30" rows="10"
+                placeholder="Type your message here"></textarea>
+            </p>
+        </fieldset>
+        <button class="contact__button" type="submit">Send</button>
+        <button class="contact__button" type="reset">Reset</button>
+        </form>
+        </article>
+
+    </section>
+    
+    <footer id="footer" class="bg-teal-700 text-xl text-white">
+        <section class="mx-auto flex max-w-4xl flex-col p-4 sm:flex-row sm:justify-between">
+          <address>
+            <h2>Call me or talk to me</h2>
+             Addis Ababa, Ethiopia <br/>
+            <a href="mailto:rabera131@gmail.com">rabera131@gmail.com</a><br />
+             <a href="tel:+251955336069">+251955336069</a>
+          </address>
+</body>
+</html>
